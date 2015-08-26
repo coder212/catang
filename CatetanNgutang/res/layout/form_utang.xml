@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <TextView 
+        android:id="@+id/NameText"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_name"/>
+    <TextView 
+        android:id="@+id/OweText"
+        android:layout_below="@+id/NameText"
+        android:layout_alignStart="@+id/NameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/text_owe"/>
+    
+    <TextView 
+        android:id="@+id/tanggaljth"
+        android:layout_below="@+id/OweText"
+        android:layout_alignStart="@+id/OweText"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_amounttime"/>
+    
+    <EditText 
+        android:id="@+id/EditName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:layout_alignBottom="@+id/NameText"
+        android:layout_marginStart="15dp"
+        android:layout_toEndOf="@+id/tanggaljth"
+        android:hint="@string/hint_addname"/>
+    
+    <EditText 
+        android:id="@+id/EditOwe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/OweText"
+        android:layout_alignBaseline="@+id/OweText"
+        android:layout_alignStart="@+id/EditName"
+        android:singleLine="true"
+        android:inputType="numberDecimal|phone"
+        android:hint="@string/hint_adduang"/>
+    
+    <EditText 
+        android:id="@+id/EditTanggaljth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tanggaljth"
+        android:layout_alignBaseline="@+id/tanggaljth"
+        android:layout_alignStart="@+id/EditOwe"
+        android:hint="@string/hint_time"/>
+    
+    <Button 
+        android:id="@+id/buttonSave"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_save"/>
+
+</RelativeLayout>

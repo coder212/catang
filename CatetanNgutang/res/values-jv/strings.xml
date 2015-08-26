@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CatetanNgutang</string>
+    <string name="button_add">Item Anyar</string>
+    <string name="hint_addname">Lebokake Jeneng</string>
+    <string name="hint_adduang">Utang piro</string>
+    <string name="hint_time">mbayar kapan</string>
+    <string name="text_name">Jeneng</string>
+    <string name="text_owe">Utang</string>
+    <string name="text_amounttime">Wektu bayar utang</string>
+    <string name="button_save">Nyimpen</string>
+</resources>
