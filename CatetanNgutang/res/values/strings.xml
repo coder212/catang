@@ -1,13 +1,13 @@
 <resources>
 
     <string name="app_name">OweNotes</string>
-    <string name="button_add">New Item Add</string>
-    <string name="hint_addname">Enter The Name </string>
-    <string name="hint_adduang">Enter The Owe Money</string>
-    <string name="hint_time">Enter The Time Amount</string>
+    <string name="button_add">New Item</string>
+    <string name="hint_addname">Name</string>
+    <string name="hint_adduang">Amount</string>
+    <string name="hint_time">Due Date</string>
     <string name="text_name">Name</string>
-    <string name="text_owe">Owe Money</string>
-    <string name="text_amounttime">Amount Time</string>
+    <string name="text_owe">Amount</string>
+    <string name="text_amounttime">Due Date</string>
     <string name="button_save">Save</string>
 
 </resources>
