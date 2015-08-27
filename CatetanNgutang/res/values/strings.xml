@@ -8,6 +8,7 @@
     <string name="text_name">Name</string>
     <string name="text_owe">Amount</string>
     <string name="text_amounttime">Due Date</string>
+    <string name="noempty">DO NOT BE EMPTY!</string> 
     <string name="button_save">Save</string>
 
 </resources>

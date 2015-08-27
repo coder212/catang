@@ -9,4 +9,5 @@
     <string name="text_owe">Utang</string>
     <string name="text_amounttime">Wektu bayar utang</string>
     <string name="button_save">Nyimpen</string>
+    <string name="noempty">Ora oleh kosong kudu di isi kabeh!</string> 
 </resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="RtlHardcoded">
+        <ignore path="res/layout/form_utang.xml" />
+        <ignore path="res/layout/raw_layout.xml" />
+    </issue>
+</lint>

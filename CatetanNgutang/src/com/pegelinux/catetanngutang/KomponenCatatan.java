@@ -2,11 +2,15 @@ package com.pegelinux.catetanngutang;
 
 public class KomponenCatatan {
 	
-	private Double hutang;
+	private double hutang;
 	private String jatuhTempo;
 	private String nama;
 	
-	public KomponenCatatan(){
+	public KomponenCatatan(String nama,double hutang,String jatuhTempo){
+		
+		this.nama = nama;
+		this.hutang = hutang;
+		this.jatuhTempo = jatuhTempo;
 		
 	}
 
